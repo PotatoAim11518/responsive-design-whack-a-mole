@@ -16,9 +16,9 @@
 
 .wgs__dirt-pile {
   width: 173px;
-  height: 200px;
+  height: 60px;
   position: absolute;
-  /* top: 131px; */
+  bottom: 0px;
 }
 
 .wgs__mole-head--hidden {
