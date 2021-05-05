@@ -1,4 +1,23 @@
 /* Write your CSS here. */
+body {
+  background: no-repeat url("./forest.jpg");
+  background-size: cover;
+}
+
+.road {
+  display: grid;
+  position: relative;
+  justify-content: center;
+  margin-top: 20%;
+  /* align-content: flex-end; */
+}
+
+.pf {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .wgs {
   width: 173px;
   height: 200px;
@@ -23,10 +42,4 @@
 
 .wgs__mole-head--hidden {
   margin-top: 241px;
-}
-
-.pf {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 1fr);
 }
