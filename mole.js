@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let moleHeads = document.querySelectorAll(".wgs__mole-head");
   moleHeads.forEach( mole => {
     mole.addEventListener('click', (event)=> {
-      console.log('hello')
+      console.log('BONK')
       event.target.classList.add('wgs__mole-head--hidden');
       // popUpRandomMole();
     });
