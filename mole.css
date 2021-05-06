@@ -4,11 +4,22 @@ body {
   background-size: cover;
 }
 
+.counter {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  width: 40%;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  background-color: rgba(255, 255, 255, .7);
+}
+
 .road {
   display: grid;
   position: relative;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 40%;
   /* align-content: flex-end; */
 }
 
